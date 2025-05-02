@@ -15,8 +15,7 @@ while(erro > tol && inter < maxit)
         b = raiz;                  % Caso contrário, b recebe o valor da raiz
     end
 
-% Note que a e b tem um valor fixo, até serem mudados pela condição em
-% questão
+% Note que a e b tem um valor fixo, até serem mudados pela condição em questão
 
     inter = inter + 1;
     erro = abs(func(raiz)); %  Calculo o valor da função no ponto da raiz em questão
